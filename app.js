@@ -20,7 +20,7 @@ app.use(require('./Routers/auth'))
 //DB conn
 dotenv.config({path:'./config.env'})
 // const DB=process.env.DATABASE
-const port=process.env.PORT
+const port=process.env.PORT || 6010
 
 // mongoose.connect(DB,{
 //     useNewUrlParser:true,
